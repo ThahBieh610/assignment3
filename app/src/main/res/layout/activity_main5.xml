@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingTop="10dp"
+            android:text="@string/book_your_appoinment_with_doctor_thah_bieh"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="3dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/rethaa">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="21dp"
+            android:paddingTop="10dp"
+            android:text="Doctor Thah Bieh, is also known as physician, abd  licensed health professionals who can maintain."
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="29dp"
+            android:onClick="but"
+            android:text="See Doctor Thah Bieh services">
+
+        </Button>
+
+    </RelativeLayout>
+</ScrollView>
